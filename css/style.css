@@ -13,11 +13,16 @@
 main img {
     width: 100%;
     display: block;
+    object-fit: contain;
 }
 
 i {
     font-size: 2rem;
     color: white;
+}
+
+section {
+    margin-bottom: 3rem;
 }
 
 .container {
@@ -41,6 +46,10 @@ i {
     margin: 1rem 0.5rem
 }
 
+.padding-lxdx {
+    padding: 0 1rem;
+}
+
 .space-btw {
     justify-content: space-between;
     align-items: center;
@@ -58,6 +67,18 @@ i {
     margin-top: 6rem;
 }
 
+.margin-bot {
+    margin-bottom: 2rem;
+}
+
+.border-25 {
+    border-radius: 25px;
+}
+
+.border-50 {
+    border-radius: 100%;
+}
+
 .bg-color-primary {
     background-color: var(--color-primary);
 }
@@ -70,12 +91,21 @@ i {
     margin-bottom: 1rem;
 }
 
+.bg-color-secondary {
+    background-color: var(--color-secondary);
+    padding: 3rem 0;
+}
+
 .col-100 {
     flex-basis: 100%;
 }
 
 .col-50 {
     flex-basis: 50%;
+}
+
+.txt-align {
+    text-align: center;
 }
 
 
@@ -100,11 +130,11 @@ i {
         flex-direction: row;
     }
 
-    .col-1_3 {
+    .col-md-1_3 {
         flex-basis: calc(90% / 3);
     }
     
-    .col-2_3 {
+    .col-md-2_3 {
         flex-basis: calc((90% / 3) * 2);
     }
 }
