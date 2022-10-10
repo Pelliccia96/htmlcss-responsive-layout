@@ -64,6 +64,10 @@ button {
     padding: 0 1rem;
 }
 
+.padding-top {
+    padding-top: 3rem;
+}
+
 .margin-lxdx {
     margin: 0 0.5rem;
 }
@@ -120,6 +124,10 @@ button {
 
 .bg-color-white {
     background-color: white;
+}
+
+.bg-footer {
+    background-color: #333333;
 }
 
 .col-100 {
