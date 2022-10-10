@@ -25,6 +25,12 @@ section {
     margin-bottom: 3rem;
 }
 
+button {
+    color: white;
+    border-radius: 25px;
+    background-color: var(--color-secondary);
+}
+
 .container {
     width: 100%;
     margin: 0;
@@ -46,8 +52,16 @@ section {
     margin: 1rem 0.5rem
 }
 
+.padding-tpbt {
+    padding: 0.5rem;
+}
+
 .padding-lxdx {
     padding: 0 1rem;
+}
+
+.margin-lxdx {
+    margin: 0 0.5rem;
 }
 
 .space-btw {
@@ -69,6 +83,10 @@ section {
 
 .margin-bot {
     margin-bottom: 2rem;
+}
+
+.margin-bot-1 {
+    margin-bottom: 1rem;
 }
 
 .border-25 {
@@ -94,6 +112,10 @@ section {
 .bg-color-secondary {
     background-color: var(--color-secondary);
     padding: 3rem 0;
+}
+
+.bg-color-white {
+    background-color: white;
 }
 
 .col-100 {
@@ -173,5 +195,5 @@ section {
     
     .col-3_4 {
         flex-basis: calc((100% / 4) * 3);
-    }    
+    }   
 }
