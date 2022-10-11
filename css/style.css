@@ -13,7 +13,7 @@
 main img {
     width: 100%;
     display: block;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 i {
@@ -38,6 +38,10 @@ button {
     border: 1px solid lightgrey;
 }
 
+.img-container {
+    width: 60%;
+}
+
 .flex-column {
     flex-direction: column;
     justify-content: center;
@@ -46,6 +50,12 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
@@ -188,6 +198,11 @@ button {
 
     .flex-column {
         flex-direction: row;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
     }
 
     .col-lg-1_3 {
