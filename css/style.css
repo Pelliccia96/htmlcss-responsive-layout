@@ -11,13 +11,19 @@
 }
 
 main img {
-    width: 100%;
+    width: 50%;
     display: block;
 }
 
 i {
     font-size: 2rem;
     color: white;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+    padding-left: 1rem;
 }
 
 section {
@@ -38,12 +44,17 @@ button {
 }
 
 .img-container {
-    max-width: 90%;
+    width: 90%;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav .row {
+    flex-direction: row;
 }
 
 .flex {
@@ -62,6 +73,10 @@ button {
     border-radius: 25px;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .margin {
     margin: 1rem 0.5rem
 }
@@ -70,12 +85,29 @@ button {
     padding: 1rem;
 }
 
+.padding-2 {
+    padding: 2rem;
+}
+
 .padding-tpbt {
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .padding-lxdx {
     padding: 0 1rem;
+}
+
+.padding-tp {
+    padding-top: 2rem;
+}
+
+
+.padding-bt {
+    padding: 0.5rem;
+}
+
+.padding-bot {
+    padding-bottom: 3rem;
 }
 
 .padding-top {
@@ -152,6 +184,50 @@ button {
     text-align: center;
 }
 
+.txt-align-l {
+    text-align: left;
+}
+
+.font-sty {
+    font-style: italic;
+}
+
+.burger {
+    display: block;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-btn {
+    display: none;
+}
+
+.txt-color-blu {
+    color: var(--color-primary);
+}
+
+.txt-color-purple {
+    color: var(--color-secondary);
+}
+
+.txt-color-grey {
+    color: #5A6E7F;
+}
+
+.txt-color-white {
+    color: white;
+}
+
+.font-L {
+    font-size: 3rem;
+}
+
+.font-style {
+    text-decoration: underline;
+}
+
 
 @media screen and (min-width: 768px) {
     .container {
@@ -169,9 +245,10 @@ button {
         margin-right: -1rem;
     }
 
-    .flex-column {
+    .row {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .col-md-1_3 {
@@ -194,9 +271,32 @@ button {
         margin: 0.5rem;
     }
 
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
     .flex {
         display: flex;
         align-items: center;
+    }
+
+    main img {
+        width: 100%;
+        display: block;
+    }  
+    
+    .burger {
+        display: none;
+    }
+
+    .nav-list {
+        display: block;
+    }
+
+    .nav-btn {
+        display: block;
     }
 
     .col-lg-1_3 {
