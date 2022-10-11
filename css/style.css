@@ -13,7 +13,6 @@
 main img {
     width: 100%;
     display: block;
-    object-fit: cover;
 }
 
 i {
@@ -38,14 +37,7 @@ button {
     border: 1px solid lightgrey;
 }
 
-.img-container {
-    width: 60%;
-}
-
-.flex-column {
-    flex-direction: column;
-    justify-content: center;
-}
+.img-container {}
 
 .row {
     display: flex;
@@ -194,10 +186,6 @@ button {
 
     .bg-color-primary-l {
         margin: 0.5rem;
-    }
-
-    .flex-column {
-        flex-direction: row;
     }
 
     .flex {
